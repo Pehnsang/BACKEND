@@ -1,0 +1,32 @@
+{
+  "name": "backend-proj-i",
+  "version": "1.0.0",
+  "description": "backend project I",
+  "homepage": "https://github.com/Pehnsang/BACKEND#readme",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Pehnsang/BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pehnsang/BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "Penhsang",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4",
+    "nodemon": "^3.1.14"
+  }
+}
